@@ -1,5 +1,7 @@
 # HR科技
 
+![四个单文件工具](https://img.shields.io/badge/工作台-4个-E8792E) ![在线预览](https://img.shields.io/badge/在线预览-GitHub%20Pages-4C8C4A) ![License](https://img.shields.io/badge/license-MIT-8A6A3B) ![离线](https://img.shields.io/badge/数据-只存本机-2B2B2B)
+
 做能离线跑的单文件小工具。不依赖框架、不联网，数据只留在自己的浏览器里。
 
 四个工作台都是原生 HTML / CSS / JavaScript，没有 CDN、没有构建步骤，下载一个文件双击就能用。
@@ -12,6 +14,15 @@
 | [深度读书工作台](https://github.com/253631672/deep-reading-workbench) | 一本书十章，双角色对话精读加 1/3/7/15 天间隔回顾 | 44KB |
 | [饮食配餐工作台](https://github.com/253631672/diet-planner-workbench) | 训练日 2400、休息日 2000 两档热量，641 条食物库 | 112KB |
 | [健身工作台](https://github.com/253631672/fitness-workbench) | 三分化推拉腿队列顺延，容量、围度、PR 自动汇总 | 40KB |
+
+### 直接在线打开
+
+- [生活投资工作台](https://253631672.github.io/life-invest-workbench/)
+- [深度读书工作台](https://253631672.github.io/deep-reading-workbench/)
+- [饮食配餐工作台](https://253631672.github.io/diet-planner-workbench/)
+- [健身工作台](https://253631672.github.io/fitness-workbench/)
+
+不用下载，点开就是完整程序，数据存在你自己的浏览器里。想离线用，去对应仓库下载那个 HTML 文件。
 
 ## 共同的做法
 
@@ -39,6 +50,8 @@
 ## 技术栈
 
 `HTML5` `CSS3` `JavaScript` `localStorage` `SVG` `conic-gradient`
+
+如果这些工具帮你省了点时间，给任意一个仓库点个 Star 就是最好的支持。
 
 ## 许可
 

@@ -33,9 +33,11 @@
 | [batchrename](https://github.com/253631672/batchrename) | 批量重命名：前缀后缀、序号补零、查找替换、去空格、日期前缀，默认只预览，加 `--apply` 才真改，改完留一封撤销记录 | Python 标准库，零依赖 |
 | [imgcomp](https://github.com/253631672/imgcomp) | 图片批量压缩：先按最长边缩放，再在质量区间里二分，找刚好不超目标体积的那一档，300张43秒压到1/5 | 只要 Pillow |
 
-两个都是一条命令跑完，Mac 和 Windows 通用，下载一个 .py 就能用。
+两个都是一条命令跑完，Mac 和 Windows 通用，下载一个 .py 就能用。两个一起的源码打包在 [marco-tools](https://github.com/253631672/marco-tools)。
 
 不想自己装环境的，成品包已经上架：
+
+- [小工具全家桶 ¥9.9](https://mbd.pub/o/bread/YZaWmJxqbQ==)：batchrename + imgcomp 一次拿走，省一半
 
 - [面包多 · 办公工具箱](https://mbd.pub/o/marco)：PPT/Excel/Word 模板合集，加这两个工具的单文件打包版
 - [爱发电](https://afdian.com/a/Marco666)：后续新工具优先放这里

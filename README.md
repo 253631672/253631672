@@ -26,7 +26,7 @@
 
 ## 单文件命令行小工具
 
-工作台是给自己天天用的，下面这四个是给文件干活的。
+工作台是给自己天天用的，下面这五个是给文件干活的。
 
 | 工具 | 做什么 | 依赖 |
 |---|---|---|
@@ -34,6 +34,7 @@
 | [imgcomp](https://github.com/253631672/imgcomp) | 图片批量压缩：先按最长边缩放，再在质量区间里二分，找刚好不超目标体积的那一档，300张43秒压到1/5 | 只要 Pillow |
 | [csvfix](https://github.com/253631672/csvfix) | CSV乱码修复：批量把 GBK/UTF-8 转成 Excel 友好编码，多份表合并去重，默认只预览，带撤销记录 | Python 标准库，零依赖 |
 | [img2pdf](https://github.com/253631672/img2pdf) | 图片批量转 PDF：票据、扫描件、截图按顺序合成一份，JPEG 原样嵌入不压画质，手机竖拍自动转正 | Python 标准库，零依赖 |
+| [md2docx](https://github.com/253631672/md2docx) | Markdown 转 Word：笔记、周报、README 一条命令出 .docx，标题带大纲、表格代码块都保留，不装 Office 不上传 | Python 标准库，零依赖 |
 
 都是一条命令跑完，Mac 和 Windows 通用，下载一个 .py 就能用。batchrename、imgcomp、csvfix 的源码打包在 [marco-tools](https://github.com/253631672/marco-tools)。
 
@@ -42,6 +43,7 @@
 - [小工具全家桶 ¥9.9](https://mbd.pub/o/bread/YZaWmJxqbQ==)：batchrename + imgcomp 一次拿走，省一半
 - [CSV乱码修复 ¥3.9](https://mbd.pub/o/bread/YZaWmJxraA==)：Excel 打开表格不再乱码，多份表合一还带去重
 - [图片批量转 PDF ¥3.9](https://mbd.pub/o/bread/YZaWmJxsZA==)：票据照片合成一份，不上传、不重压
+- [Markdown 转 Word ¥3.9](https://mbd.pub/o/bread/YZaWmJxtZg==)：笔记周报一键变 .docx，不装 Office
 
 - [面包多 · 办公工具箱](https://mbd.pub/o/marco)：PPT/Excel/Word 模板合集，加这几个工具的单文件打包版
 - [爱发电](https://afdian.com/a/Marco666)：后续新工具优先放这里
